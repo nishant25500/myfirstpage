@@ -1,0 +1,80 @@
+body{
+    font-family: 'Luxurious Roman', cursive;
+}
+
+/* utility classes */
+.img-responsive {
+    max-width: 100%;
+}
+.hero_image{
+    background: url(/img/pexels-chris-schippers-421927.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.hero_wrapper{
+    color: black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero_wrapper h1{
+   font-size: 2.4rem;
+   text-align: center;
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+    display: inline-block;
+    /* margin-bottom: .3rem; */
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 2rem;
+    padding: .7rem;
+    /* border:none; */
+    outline:none;
+}
+.form_code button{
+    display: block;
+    width: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    background-color: #00bab1;
+    padding: .4rem;
+    margin-top: 1rem;
+}
+
+/* product section */
+
+.product{
+    width: 90%;
+    margin-top: .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blueviolet; */
+}
+.product_list_item{
+    float: left;
+    width: 32%;
+    margin-left: 1rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    }
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+
+@media  screen and (max-width: 700px) {
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+}
